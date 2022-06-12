@@ -23,7 +23,7 @@
 - Linear Model 6 is significant with all p-Values and VIF values below the threshold as per industry standards. We can the script using 'Bike Sharing Linear Regression.ipynb' for all the details.
 - 'temp', 'Light Rain/Snow & Scattered Clouds' & 'year' are the top three variables which contribute significantly towards the target variable 'count' which is the count of Bike Sharing. We can check the linear equation in the python script mentioned earlier.
 - Assumpitions in Linear Regression such as Normal Distribution in error terms, Homoscedasticity, Multicollinearity(VIF) are checked during Model Building and were True.
-- Difference between R-Squared & Adjusted R-Squared for train and test data was not above 5%  and were close to each other as well which implies no Overfitting and the model is working fine both for train and test data.
+- Difference between R-Squared & Adjusted R-Squared for train and test data is below 5%  and were close to each other as well which implies no Overfitting and the model is working fine both for train and test data.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
