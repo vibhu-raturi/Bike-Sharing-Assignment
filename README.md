@@ -1,48 +1,42 @@
-# Project Name
-> Outline a brief description of your project.
+#  Bike Sharing Assignment
+>  A bike-sharing system in which bikes are made available for shared use to individuals on a short term basis for a price or free.
+> It allow people to borrow a bike from a "dock" which is usually computer-controlled wherein the user enters the payment information, and the system unlocks it. This bike can then be returned to another dock belonging to the same system.
 
 
 ## Table of Contents
 * [General Info](#general-information)
-* [Technologies Used](#technologies-used)
+* [Technical Stacks](#technical-stacks)
 * [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
 
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+-  Business Problem : The objective is to model the demand for shared bikes with the available independent variables. It will be used by the management to understand   how exactly the demands vary with different features. 
+- Objective : Create a linear model that describe the effect of various features on demand. The model should be interpretable so that the management can understand it.
+- Dataset : Dataset used here for this assignment is 'day.csv'.
+- We also have a Data Dictionary for our refrence and understanding of the variables used in the dataset.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+-  We were able to build a Linear Regression Model for this Bike Sharing assignment
+- Linear Model 6 is significant with all p-Values and VIF values below the threshold as per industry standards. We can the script using Bike Sharing Linear Regression.ipynb for all the details.
+- 'temp', 'Light Rain/Snow & Scattered Clouds' & 'year' are the top three variables which contribute significantly towards the target variable 'count' which is the count of Bike Sharing. We can check the linear equation in the python script mentioned earlier.
+- Assumpitions in Linear Regression such as Normal Distribution in error terms, Homoscedasticity, Multicollinearity(VIF) are checked during Model Building and were True.
+- Difference between R-Squared & Adjusted R-Squared for train and test data was not above 5%  and were close to each other as well. Which implies No Overfitting and the model is working fine with test data as well.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
-## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+## Technical Stacks
+- Python
+- Jupyter Notebook
+- Git Bash
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
-
-
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@vibhu-raturi] - feel free to contact me!
 
 
 <!-- Optional -->
